@@ -1,0 +1,75 @@
+# ===================================================================
+# ChronoTrack .gitignore
+# ===================================================================
+
+# Node dependencies & caches
+node_modules/
+frontend/node_modules/
+/.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.pnpm-store/
+
+# Build outputs
+dist/
+frontend/dist/
+build/
+out/
+
+# Java / Maven build targets
+backend/target/
+target/
+*.class
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+frontend/.env
+frontend/.env.local
+backend/.env
+
+# IDE / Editor configuration
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.code-workspace
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# Operating System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~

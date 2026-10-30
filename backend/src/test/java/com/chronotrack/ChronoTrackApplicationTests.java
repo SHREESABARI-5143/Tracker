@@ -1,0 +1,12 @@
+package com.chronotrack;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class ChronoTrackApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+}
